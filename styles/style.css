@@ -109,9 +109,6 @@
 }
 
 .two-columns__paragraph:first-child {
-  line-height: 34px;
-  font-size: 24px;
-  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -123,10 +120,7 @@
 }
 
 .two-columns__paragraph:last-child {
-  line-height: 34px;
-  font-size: 24px;
   margin-top: 30px;
-  margin-bottom: 0;
 }
 
 .section-title {
@@ -181,7 +175,6 @@
 .table__text {
   line-height: 1.2;
   font-size: 18px;
-  margin-top: 0;
   font-weight: normal;
 }
 
@@ -318,8 +311,6 @@
 }
 
 .logo_place_footer {
-  top: 30px;
-  left: 64px;
   height: 35px;
   width: 183px;
 }
@@ -339,15 +330,23 @@
 }
 
 .footer__column-links {
+  margin-top: 20px;
   padding-bottom: 16px;
 }
 
-.footer__column-link {
+.footer__column-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-link a {
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   color: white;
+  text-align: left;
 }
 
 .footer__column_content_social {
@@ -360,7 +359,7 @@
   font-size: 18px;
   font-weight: bold;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .footer__social-icon {
@@ -369,7 +368,6 @@
   padding-right: 10px;
   margin: 0;
 }
-
 
 
 
