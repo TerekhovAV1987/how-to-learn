@@ -334,19 +334,14 @@
   padding-bottom: 16px;
 }
 
-.footer__column-links ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.footer__column-link a {
+.footer__column-link {
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   color: white;
-  text-align: left;
+  /* text-align: left; */
+  display: block;
 }
 
 .footer__column_content_social {
