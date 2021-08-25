@@ -6,4 +6,10 @@
   color: white;
   /* text-align: left; */
   display: block;
+  transition-duration: 1s;
+}
+
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
